@@ -76,4 +76,6 @@ Cada página já foi pensada para virar um `.php`, seguindo o padrão do projeto
 | `LojaDB.salvar(...)`             | `produto_salvar.php` com `INSERT` / `UPDATE` (prepare + execute) |
 | `LojaDB.excluir(...)`            | `produto_excluir.php` com `DELETE ... WHERE id = ?`           |
 | `cardapio.js`                    | laço `foreach` em `cardapio.php` com `WHERE ativo = 1`        |
-| `admin/assets/admin.js` (guarda) | `admin/protecao.php` incluído no topo de cada p
+| `admin/assets/admin.js` (guarda) | `admin/protecao.php` incluído no topo de cada página
+'topo/rodapé repetidos'	'topo.php e rodape.php' com include
+As tabelas e colunas de banco/01_criar_tabelas.sql têm os mesmos nomes usados no dados.js, então as telas não precisam mudar.
